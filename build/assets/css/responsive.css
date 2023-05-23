@@ -1,6 +1,7 @@
 @media screen and (max-width: 500px){
     .capa_image_with_text {height: 330px !important;}
     .cnt_us_txt {font-size: 36px !important;line-height: 40px !important;}
+    .vCISO {background-image: url(/assets/img/strategicservices-it1-vciso-320.jpg);}
 }
 @media (max-width:  768px) { 
     .modal{ width: 350px; height: 350px; margin: auto; }
@@ -10,35 +11,53 @@
     /*** Reponsive Header ***/
     .navbar-nav .col-sm-12{ padding-left: 20px!important; padding-right: 20px!important; }
     .fixed-top{ position: initial; }
-    #page-home .navbar-brand{}
-    #page-home .navbar-brand,#page-case-studies .navbar-brand,#page-case-study .navbar-brand,#page-industry .navbar-brand,#page-service .navbar-brand, #page-cloud .navbar-brand{padding-left: 20px;}
+    /* #page-home .navbar-brand{} */
+    /* #page-home .navbar-brand,#page-case-studies .navbar-brand,#page-case-study .navbar-brand,#page-industry .navbar-brand,#page-service .navbar-brand, #page-cloud .navbar-brand{padding-left: 15px;} */
     .fixed-top .navbar-brand h1{ color: #212121; }
-    header .container{ padding-right: 0; padding-left: 0; overflow: hidden; }.navbar{ padding: 0!important; }
+    header .container{ padding-right: 0; padding-left: 0; overflow: hidden; }
     nav .header-inner{ width: 100%; border-bottom: 1px solid #D8D8D8; }
     .navbar-collapse {margin-left: 0 !important;}
     .nav-link.dropdown-toggle{ border-bottom: 1px solid #D8D8D8; }
     .navbar-nav .nav-item:first-child .nav-link.dropdown-toggle{ border-top: 1px solid #D8D8D8; }
     .navbar-nav .nav-item:last-child .nav-link.dropdown-toggle{ border-bottom: none; }
-    .navbar-brand img{ padding-left: 20px; }
-    .navbar-light .navbar-toggler{ border: none; padding-right: 20px; }
+    .navbar-brand img{ padding-left: 0px; }
+    .header-link{ font-family: HNC;}
+    .navbar-light .navbar-toggler{ border: none;}
+    .navbar-collapse .navbar-nav .nav-item a{ color: #000 !important; font-size: 14px; font-family: 'HNB';}
     .navbar-toggler{ padding: 0; float: right; }
     .navbar-toggler-icon{ height: 2.5em; }
     button:focus{ outline: none; }
     .navbar-brand,.navbar-collapse{ margin: 0%; }
-    .navbar-collapse .navbar-nav .nav-item .dropdown-toggle,.bg-white .navbar-collapse .navbar-nav .nav-item .dropdown-toggle{ padding: 20px; font-size: 20px; }
-    .navbar-collapse .navbar-nav .nav-item a,.bg-white .navbar-collapse .navbar-nav .nav-item a{ font-size: 20px;}
+    .navbar-collapse .navbar-nav .nav-item .dropdown-toggle,.bg-white .navbar-collapse .navbar-nav .nav-item .dropdown-toggle{ padding: 20px 0px; font-size: 20px; text-decoration: none;}
+    .bg-white .navbar-collapse .navbar-nav .nav-item a{ font-size: 14px; font-family: 'HNB';}
     .navbar-collapse{ background-color: #fff;}
     .header-head{ width: 60%; }
     .nav-button{ display: none; }
     .dropdown-menu .container{ padding-right: 0; padding-left: 15px; }
-    .dropdown-menu{ border: none; }
+    .dropdown-menu{ border: none; font-size: 14px; }
     .dropdown-menu .row{ padding: 10px 0; }
-    .dropdown-menu li{ margin-bottom: 0; padding: 10px 0; border-bottom: 1px solid #D8D8D8; }
-    .dropdown-toggle::after{ width: 38px; height: 0; float: right; vertical-align: top; content: url('/assets/img/right_arrow.svg') !important; border: none; }
+    .dropdown-menu li{ margin-bottom: 0; padding: 10px 0; }
+    .dropdown-toggle::after{ width: 40px; height: 0; float: right; vertical-align: top; content: url('/assets/img/right_arrow.svg') !important; border: none; }
     .navbar-nav .show .dropdown-toggle::after{ width: 38px; height: 0; float: right; vertical-align: top; content: url('/assets/img/arrow_up.svg') !important; border: none; }
     .header-social{ display: block; }
     .header-social .social-icon a{ color: #212121; }
-    .header-social .social-icon li{ margin-top: 2em; margin-right: 3.0em; list-style: none; display: inline-flex;}
+    .list-inline a{ padding-left: 15px;}
+    .blue_btn { margin-left: 0;} 
+    .blue { padding: 0;}
+    .our-purpose { margin-top: 0;}
+    .social-icon{ padding-left: 16px;}
+     /*** service menu ***/
+    .ser-link{display: none;}
+    .serv-link > ol.nav-links {padding-left: 0px;}
+    .nav-links {bottom: 185px;}
+    .nav-links {display: none;}
+    .salesforce-nav .nav-links{ display: flex}
+    .dropdown:hover .dropdown-content { display: inline-block; overflow: hidden; overflow-y: scroll; height: 200px;}
+    .navbar-nav .indsutries_menu .col-sm-12 { padding-left: 0px!important; padding-right: 0px!important; }
+    .nav-item .service-row a{font-family: HNB;}
+    .service-row h3{padding-left: 15px; padding-bottom: 25px;}
+    .service-row .col-md-9 {border-bottom: 1px solid #c1c1c1; bottom:10px;}
+    .header-social .social-icon li{ margin-top: 2em; margin-right: 2.5em; list-style: none; display: inline-flex;}
     .slider-arrow-header{ margin-left: -71px; vertical-align: top; }
     .abt-menu-head{ padding-right: 0; }
     .menu-seprator{ display: none; }
@@ -49,7 +68,7 @@
     .future_technology{background-image: url(/assets/img/future_tech.png); background-size: 100%; }
     .digital_dentistry{ background-image: url(/assets/img/cs-ai-automation-mob.png); }
     .customer_service{ background: url(/assets/img/cloud-managed-services-cs-lead-mob.png); }
-    .talent_revol{ background-image: url(/assets/img/building-digital-workplaces-lead-mob.png); background-position:right; background-color: #133f57fa;}
+    .talent_revol{ background-image: url(/assets/img/building-digital-workplaces-lead-mob.png); background-position:right; background-color: #133f57fa; padding: 100px 0!important;}
     .contact_us{  background-size:cover; background-image: url(/assets/img/fortified-energy-framework.png);}
     .about_page{ background-image: url(/assets/img/company-mob.png);}
     .case_study{ display: none; }
@@ -118,8 +137,58 @@
     .doMoreExpand img{ height: 40px;}
     .modal {top: -330px;}
     .contact_page span {font-size: 36px;}
+    /*** SOC ***/
+    .vCISO-con{padding: 60px 0; max-width: 100%; padding-right: 23px !important; padding-left: 23px !important;}
+    .ss-IR-left{padding: 0 23px; max-width: 100%; padding-right: 23px !important; padding-left: 23px !important; }
+    .ss-Assessment-right{padding: 0 23px; max-width: 100%; padding-right: 23px !important; padding-left: 23px !important; } 
+    .flex-direction{flex-direction: column-reverse; }
+    .threat h2{font-size: 24px;}
+    .strategicservices, .vCISO, .ss-Assessment, .ss-IR, .Custom-Staff, .timeline_sec, .threat, .timeline_sec-mob{display: none;}
+    .strategicservices-mob img, .ss-IR-mob img, .ss-Assessment-mob img{width: 100%;} 
+    .strategicservices_over p{padding: 0 15px;}
+    .vCISO-mob, .ss-Assessment-mob, .ss-IR-mob, .timeline_sec-mob{margin: 30px 0;}
+    .Custom-Staff-mob{margin-top: 50px;}
+    .ss-Assessment-right{top: 2%;}
+    .threat-mob{background-color: #00033e; padding-bottom: 30px;}
+    .threat-mob h2{color: #fff; margin: 50px 20px; font-size: 24px;}
+    .cta.cta-primary{margin-left:30px ;}
+    .ss-Assessment-right, .ss-IR-left, .strategicservices_over{margin-top: 30px; }
+    .submenu-portion img {width: 30px; margin-top: 0;}  
+    .list-inline li:first-child {margin-top: 0px; margin-bottom: 0;}
+    .dropdown-menu .list-inline li {padding: 0;}
+    
+    /*** cloud pages ***/
+    .clo-meth{margin-top:20px ; margin-bottom: 10px;}
+    .clo-meth h2{padding-bottom: 30px;}
+    .clo-meth h3{font-size: 14px;}
+    .clo-meth img{width: 40%; height: auto;}
+    .clo-meth .col-lg-4{ margin-bottom: 10px;}
+    .clo-meth .card{display: flex;flex-direction: column;background: #FFFFFF;padding: 20px 20px 30px;border: 1px solid #F0F0F0;box-shadow: 0px 3px 12px rgb(0 0 0 / 8%);-webkit-border-radius: 16px;-moz-border-radius: 16px;border-radius: 16px;position: relative;overflow: hidden;z-index: 1; height: 100%;}
+    .Scr-cld-nav ul { top: 0px; padding: 20px 15px;}
+    .clo-ser {display: block; height: 365px; width: 100%;}
+    .cfcr {flex-direction: column-reverse;}
+    
+    /*** sale-force pages***/
+    .sale-info .col-12 {margin-top: 20px;}
+    .sale-info-img img{width: 100%;}
+    .font-s {font-size: 14px;}
+    .sale-info-2 .sale-info-cont{ margin-top: 0px;}
+    .desktop-menu{display: none;}
+    .salesforce-nav .mobile-menu{ display: flex;}
+    .mobile-menu .dropdown-content{ left: -150px;}
+    .serv-link.col-12 { padding-left: 0px;}
+    .dropdown:hover .dropdown-content{ padding: 10px 15px 10px 15px;}
+    .nav-links .list-inline li { padding-left: 0px;  padding-right: 0px;}
+    .serverice_menu:after { margin-left: 10px; margin-right: 10px;}
+    .serverice_menu {margin-left: 18px; margin-right: 5px; font-size: 14px;}
+    /*** blogs ***/
+    .blog-para { margin-left: 0px;}
+    .blog-banner .h2-heading { margin-left: 0px};
 }    
 @media screen and (min-width: 768px) {
+    /**** Header ***/
+    .nav-link.dropdown-toggle.header-link{ font-size: 16px;}
+    .list-inline a{ padding: 0px !important;white-space: nowrap; }
      /*** logo **/
      .future_technology{background-image: url(/assets/img/future_tech-mob.png); background-size: 50%;}
     .digital_dentistry{ background-image: url(/assets/img/indus_content.png); background-position: center left;}
@@ -134,9 +203,22 @@
     .about_us p {margin-bottom: 60px;}
      /*** slider **/
      .slide-1, .slide-2, .slide-3, .slide-4, .slide-5{height: 600px !important;}
-     h2-slide{ }
+     /* h2-slide{ } */
      .esg .col-lg-4{ display: inline-block;}
-    
+     .vCISO {background-image: url(/assets/img/strategicservices-it1-vciso-768.jpg);}
+     .srv-main-mob, .strategicservices-mob, .vCISO-mob, .ss-Assessment-mob, .ss-IR-mob, .Custom-Staff-mob, .timeline_sec-mob, .threat-mob{display: none;}
+     .clo-meth{margin-top: 70px; margin-bottom: 20px;}
+     .clo-meth h2{padding-bottom: 30px;}
+     .clo-meth h3{font-size: 22px;}
+     .clo-meth img{width: 20%; height: auto;}
+     .clo-meth .col-lg-4{ margin-bottom: 40px;}
+     .clo-meth .card{display: flex;flex-direction: column;background: #FFFFFF;padding: 20px 20px 30px;border: 1px solid #F0F0F0;box-shadow: 0px 3px 12px rgb(0 0 0 / 8%);-webkit-border-radius: 16px;-moz-border-radius: 16px;border-radius: 16px;position: relative;overflow: hidden;z-index: 1; height: 100%;}
+     .clo-indus {margin-top:40px ;}
+    .clo-indus h2{padding: 40px;}
+     .clo-indu{margin-top: 40px;}
+     .clo-indus img{border-radius: 16px; vertical-align: middle;}
+     .clo-ser{ height: 60vh !important; width: auto;}
+     .card-deck{padding-right: 15px!important; padding-left: 15px!important;}
 }
 @media screen and (max-width: 992px) {
     .navbar {padding-top: 10px !important;}
@@ -145,12 +227,15 @@
     .eco-partner-img{width: 100%; height: 40%;}
     .spacer {padding-top: 5px !important;}
     .cntry-nme {font-size: 11px !important;} 
-    .cnt_us_txt {font-size: 42px;line-height: 48px;}   
+    .contact_us{ padding-left: 15px; padding-right: 15px;}
+    .cnt_us_txt {font-size: 42px; line-height: 48px; padding-top: 50px;}   
     .indus-info { flex-direction: column-reverse;}   
     .indus-info img {padding-top: 26px;} 
     .ctrl-width-mob{ margin-bottom: 20px;}
     .aim{margin-top: 10px;}
     .work-des{display: none;}
+    .indus-info-cy iframe{width: 100% !important; }
+    .strategicservices-col { flex-direction: column-reverse;} 
 }
 @media screen and (min-width: 992px){
     #page-home{padding-right: 0px !important;}
@@ -158,6 +243,8 @@
     .navbar .nav-item:hover .dropdown-menu{ display: block; box-shadow: 0 15px 25px #00000026; }
     .navbar .nav-item .dropdown-menu{ margin-top: 0; top: 40px; }
     .dropdown-toggle::after{ color: transparent; margin-left: .1em; border: none; }
+    .submenu-portion{margin-left: 50px;}
+    .service-row h3{ margin-right: 10px; margin-top: 10px;}
     .item{ height: 100vh; width: 100%; }
     .h2-heading { font-size: 42px; font-weight: 900; line-height: 50px; padding-bottom: 15px }
     .sec {padding: 100px 0;}
@@ -203,14 +290,13 @@
     .team li a{padding: 20px 40px;}
     .team .nav-tabs {border-bottom: none; justify-content: center;}
     .navbar-collapse .navbar-nav .nav-item a {padding: 0 .5rem;}
-    
+    .vCISO {background-image: url(/assets/img/strategicservices-it1-vciso-992.jpg);}
 }
 @media screen and (max-width: 1024px){
     .fixed-top{ position: initial; }
     .fixed-top .navbar-brand h1{ color: #212121; }
     .slider-arrow{ display: none; }
-    .front_slider{display: none;}
-    
+    .front_slider{display: none;} 
     
 }
 @media screen and (min-width: 1024px){
@@ -227,14 +313,20 @@
     .bg-sapphire-light .zoom_text:hover{clip-path: circle(460px at 44px 44px);background-color: #007CC3;}
     .bg-amethyst-light .zoom_text:hover{clip-path: circle(460px at 44px 44px);background-color: #963596;}
     .cntry-nme{ font-size: 14px;}
-   
+    
+    /*** CYBER SECURITY ***/
+    .owl-carousel .owl-prev{ left: -25px;}
+    .owl-carousel .owl-next{ right: -25px;}
+    .strategicservices-right p {padding-left: 80px; padding-right: 80px;}
+    .strategicservices img{height: 700px;}
 }
+
 @media screen and (max-width: 1200px){
     /** header **/
     .navbar-collapse{ margin-left: 6em; }
     .cntry-nme{ font-size: 16px;}
-    .navbar-collapse {margin-left: 10em;}
-    
+    .navbar-collapse {margin-left: 10em; }
+    /*** CYBER SECURITY ***/
 }
 
 @media screen and (min-width: 1200px){
@@ -242,16 +334,26 @@
     .navbar-collapse{ margin-left: 26em; }
     .cnt_us_txt{ font-size: 64px;}
     .cntry-nme{ font-size: 18px;}
+
+    /*** CYBER SECURITY ***/
+    .owl-carousel .owl-prev{ left: -33px; }
+    .owl-carousel .owl-next{ right: -33px;}
 }
 @media screen and (max-width: 1280px) {
     .front_slider { left: 10px;}
     .navbar-collapse {margin-left: 14em;}
-    .box{ right: -8px;}
+    .box{ right: 0px;}
 }
 @media screen and (min-width: 1280px) {
     .cntry-nme{ font-size: 20px;}
     .navbar-collapse {margin-left: 26em;}
+    .offset-lg-right-1 { margin-right: 8.333333%; }
 }
-
-
+@media (min-width: 1440px) and (max-width: 1920px){
+    .container-custom-staff { max-width: 1604px; }
+}
+@media (min-width: 576px){
+ .card-deck{ margin-left: 0px; margin-right: 0px; padding-right: 0px!important; padding-left: 0px!important; padding-bottom: 30px;}
+ 
+}
 
