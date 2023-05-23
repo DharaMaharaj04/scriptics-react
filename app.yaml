@@ -1,0 +1,15 @@
+runtime: nodejs10
+service: scriptics-react
+
+handlers:
+  - url: /static
+    static_dir: build/static
+
+  - url: /(.*\.(css|gif|ico|jpg|js|png|txt|svg|woff|woff2|ttf|map|json|webp|xml))$
+    static_files: build/\1
+    upload: build/.*\.(css|gif|ico|jpg|js|png|txt|svg|woff|woff2|ttf|map|json|webp|xml)$
+
+  - url: .*
+    static_files: build/index.html
+    upload: build/index.html
+
