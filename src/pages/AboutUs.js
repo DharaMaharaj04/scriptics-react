@@ -163,17 +163,7 @@ export class AboutUs extends Component {
                                                     </div>
                                                 </div>    
                                             </div>
-                                            <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>
-                                                <div className='eqh-box'>
-                                                    <div className='team-desc text-center'>
-                                                        <h4>Dr.Anupriya M. MDS, PhD</h4>
-                                                        <p className="title">CMO</p>
-                                                        <div className='linked'>
-                                                            <a href="https://www.linkedin.com/in/dr-anupriya-m-36765621"><i className="fa fa-linkedin"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>    
-                                            </div>
+    
                                             <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>
                                                 <div className='eqh-box'>
                                                     <div className='team-desc text-center'>
@@ -185,17 +175,7 @@ export class AboutUs extends Component {
                                                     </div>
                                                 </div>    
                                             </div>
-                                            <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>           
-                                                <div className='eqh-box'>
-                                                    <div className='team-desc text-center'>
-                                                        <h4>Sachin Bhatia, M.Tech</h4>
-                                                        <p className="title">COO</p>
-                                                        <div className='linked'>
-                                                            <a href="https://www.linkedin.com/in/sachin-bhatia-m-eng-81b51634"><i className="fa fa-linkedin"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            
                                             <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>           
                                                 <div className='eqh-box'>
                                                     <div className='team-desc text-center'>
